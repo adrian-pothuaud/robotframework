@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20180712 14:08:11.669">
+<suite id="s1" name="Specs" source="E:\AutomaticTests\pocs\RobotFramework\Projects\CURA\Specs">
+<suite id="s1-s1" name="Bad Users Cannot Login" source="E:\AutomaticTests\pocs\RobotFramework\Projects\CURA\Specs\Bad Users Cannot Login.robot">
+<test id="s1-s1-t1" name="Invalid User Name">
+<kw name="Behaviour">
+<arguments>
+<arg>Jane Doe</arg>
+<arg>ThisIsNotAPassword</arg>
+</arguments>
+<kw name="Given login page is open" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>open login page</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.852" level="INFO">open login page</msg>
+<status status="PASS" starttime="20180712 14:08:11.852" endtime="20180712 14:08:11.852"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.851" endtime="20180712 14:08:11.852"></status>
+</kw>
+<kw name="When username ${username} and password ${password} are inserted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>insertion of credentials ${username} and ${password}</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.852" level="INFO">insertion of credentials Jane Doe and ThisIsNotAPassword</msg>
+<status status="PASS" starttime="20180712 14:08:11.852" endtime="20180712 14:08:11.852"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.852" endtime="20180712 14:08:11.853"></status>
+</kw>
+<kw name="and credentials are submitted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>submit credentials</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.853" level="INFO">submit credentials</msg>
+<status status="PASS" starttime="20180712 14:08:11.853" endtime="20180712 14:08:11.853"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.853" endtime="20180712 14:08:11.853"></status>
+</kw>
+<kw name="Then bad login popup should appear" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>bad login</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.853" level="INFO">bad login</msg>
+<status status="PASS" starttime="20180712 14:08:11.853" endtime="20180712 14:08:11.854"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.853" endtime="20180712 14:08:11.854"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.851" endtime="20180712 14:08:11.854"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.851" endtime="20180712 14:08:11.854" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="Invalid Password">
+<kw name="Behaviour">
+<arguments>
+<arg>John Doe</arg>
+<arg>invalid</arg>
+</arguments>
+<kw name="Given login page is open" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>open login page</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.857" level="INFO">open login page</msg>
+<status status="PASS" starttime="20180712 14:08:11.857" endtime="20180712 14:08:11.857"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.857" endtime="20180712 14:08:11.858"></status>
+</kw>
+<kw name="When username ${username} and password ${password} are inserted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>insertion of credentials ${username} and ${password}</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.858" level="INFO">insertion of credentials John Doe and invalid</msg>
+<status status="PASS" starttime="20180712 14:08:11.858" endtime="20180712 14:08:11.858"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.858" endtime="20180712 14:08:11.858"></status>
+</kw>
+<kw name="and credentials are submitted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>submit credentials</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.859" level="INFO">submit credentials</msg>
+<status status="PASS" starttime="20180712 14:08:11.859" endtime="20180712 14:08:11.859"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.858" endtime="20180712 14:08:11.859"></status>
+</kw>
+<kw name="Then bad login popup should appear" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>bad login</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.859" level="INFO">bad login</msg>
+<status status="PASS" starttime="20180712 14:08:11.859" endtime="20180712 14:08:11.859"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.859" endtime="20180712 14:08:11.859"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.857" endtime="20180712 14:08:11.859"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.856" endtime="20180712 14:08:11.860" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="Invalid User Name And Password">
+<kw name="Behaviour">
+<arguments>
+<arg>Jane Doe</arg>
+<arg>invalid</arg>
+</arguments>
+<kw name="Given login page is open" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>open login page</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.863" level="INFO">open login page</msg>
+<status status="PASS" starttime="20180712 14:08:11.863" endtime="20180712 14:08:11.863"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.862" endtime="20180712 14:08:11.863"></status>
+</kw>
+<kw name="When username ${username} and password ${password} are inserted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>insertion of credentials ${username} and ${password}</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.863" level="INFO">insertion of credentials Jane Doe and invalid</msg>
+<status status="PASS" starttime="20180712 14:08:11.863" endtime="20180712 14:08:11.863"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.863" endtime="20180712 14:08:11.863"></status>
+</kw>
+<kw name="and credentials are submitted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>submit credentials</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.864" level="INFO">submit credentials</msg>
+<status status="PASS" starttime="20180712 14:08:11.864" endtime="20180712 14:08:11.864"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.864" endtime="20180712 14:08:11.864"></status>
+</kw>
+<kw name="Then bad login popup should appear" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>bad login</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.864" level="INFO">bad login</msg>
+<status status="PASS" starttime="20180712 14:08:11.864" endtime="20180712 14:08:11.864"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.864" endtime="20180712 14:08:11.864"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.862" endtime="20180712 14:08:11.865"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.862" endtime="20180712 14:08:11.865" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20180712 14:08:11.698" endtime="20180712 14:08:11.867"></status>
+</suite>
+<suite id="s1-s2" name="Valid User Can Login" source="E:\AutomaticTests\pocs\RobotFramework\Projects\CURA\Specs\Valid User Can Login.robot">
+<test id="s1-s2-t1" name="Login">
+<kw name="Given login page is open" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>open login page</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.872" level="INFO">open login page</msg>
+<status status="PASS" starttime="20180712 14:08:11.872" endtime="20180712 14:08:11.872"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.872" endtime="20180712 14:08:11.872"></status>
+</kw>
+<kw name="When username ${username} and password ${password} are inserted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>insertion of credentials ${username} and ${password}</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.873" level="INFO">insertion of credentials John Doe and ThisIsNotAPassword</msg>
+<status status="PASS" starttime="20180712 14:08:11.873" endtime="20180712 14:08:11.873"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.872" endtime="20180712 14:08:11.873"></status>
+</kw>
+<kw name="and credentials are submitted" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>submit credentials</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.874" level="INFO">submit credentials</msg>
+<status status="PASS" starttime="20180712 14:08:11.874" endtime="20180712 14:08:11.874"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.873" endtime="20180712 14:08:11.874"></status>
+</kw>
+<kw name="Then bad login popup should appear" library="CURA">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>bad login</arg>
+</arguments>
+<msg timestamp="20180712 14:08:11.874" level="INFO">bad login</msg>
+<status status="PASS" starttime="20180712 14:08:11.874" endtime="20180712 14:08:11.874"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.874" endtime="20180712 14:08:11.875"></status>
+</kw>
+<status status="PASS" starttime="20180712 14:08:11.871" endtime="20180712 14:08:11.875" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20180712 14:08:11.868" endtime="20180712 14:08:11.876"></status>
+</suite>
+<status status="PASS" starttime="20180712 14:08:11.674" endtime="20180712 14:08:11.878"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" id="s1" name="Specs">Specs</stat>
+<stat pass="3" fail="0" id="s1-s1" name="Bad Users Cannot Login">Specs.Bad Users Cannot Login</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Valid User Can Login">Specs.Valid User Can Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
